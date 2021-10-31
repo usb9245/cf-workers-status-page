@@ -23,7 +23,7 @@ monitors:
     expectStatus: 200 # operational status, default=200
     
   - id: blog-monbox-kr # unique identifier
-    name: blog.monbox.kr
+    name: blog.monbox.kr (Tistory)
     description: 'MonBox Blog Page (Powered by Tistory)' # default=empty
     url: 'https://blog.monbox.kr/' # URL to fetch
     method: GET # default=GET
