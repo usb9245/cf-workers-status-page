@@ -29,7 +29,7 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     
-   - id: private-server # unique identifier
+   - id: private-monbox-kr # unique identifier
     name: Private Server
     description: 'MonBox Private Page' # default=empty
     #url: ${{ secrets.PRIVATE_SERVER_URL }} # URL to fetch
