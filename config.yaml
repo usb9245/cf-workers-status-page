@@ -32,7 +32,8 @@ monitors:
   - id: private-server # unique identifier
     name: Private Server
     description: 'MonBox Private Page' # default=empty
-    url: ${{ secrets.PRIVATE_SERVER_URL }} # URL to fetch
+#    url: ${{ secrets.PRIVATE_SERVER_URL }} # URL to fetch
+    url: https://example.com/
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     linkable: false # should the titles be links to the service, default=true
