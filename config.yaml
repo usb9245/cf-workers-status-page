@@ -28,13 +28,4 @@ monitors:
     url: 'https://blog.monbox.kr/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    
-  - id: private-server # unique identifier
-    name: Private Server
-    description: 'Work in Progress to show status' # default=empty
-    url: PRIVATE_SERVER_URL # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    linkable: false # should the titles be links to the service, default=true
-    
-    
+
