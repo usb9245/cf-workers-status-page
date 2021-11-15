@@ -21,6 +21,7 @@ monitors:
     url: 'https://monbox.kr/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
     
   - id: blog-monbox-kr # unique identifier
     name: blog.monbox.kr (Tistory)
@@ -28,4 +29,5 @@ monitors:
     url: 'https://blog.monbox.kr/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
 
