@@ -25,7 +25,7 @@ monitors:
     linkable: true # should the titles be links to the service, default=true
     
   - id: blog-monbox-kr # unique identifier
-    name: blog.monbox.kr (Tistory/Kakao Server)
+    name: blog.monbox.kr (Tistory)
     description: 'MonBox Blog Page (Powered by Tistory)' # default=empty
     url: 'https://blog.monbox.kr/' # URL to fetch
     method: GET # default=GET
